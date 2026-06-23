@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: #F4D04E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 380px;
+    padding: 20px;
+    border-radius: 10px;
+    border: black 1px solid;
+    box-shadow: 10px 10px 0px rgba(0,0,0);
+}
+.img-container{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.blog{
+    width: 100%;
+}
+.card-highlight{
+    width: fit-content;
+    background-color: #F4D04E;
+    font-weight: 800;
+    padding: 8px;
+    margin-top: 25px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.content{
+    font-weight: 600;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #121212;
+}
+.content-h1{
+    font-size: 27.5px;
+    font-weight: 800;
+}
+.content-p{
+    color: #6B6B6B;
+}
+.avatar{
+    width: 32px;
+    margin-top: 15px;
+}
+.card-author{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.author-name{
+    font-size: 12px;
+    font-weight: 800;
+    margin-left: 9px;
+}
