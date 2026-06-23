@@ -43,15 +43,6 @@ Each project contains its own source files and assets.
 - Learn modern layout techniques
 - Strengthen JavaScript skills through practical projects
 
-## Current Progress
-
-| Challenge | Status |
-|-----------|--------|
-| QR Code Component | ✅ Completed |
-| Product Preview Card | ⏳ In Progress |
-
-*(This table will be updated as more challenges are completed.)*
-
 ## How to Run
 
 1. Clone the repository
