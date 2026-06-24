@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+    font-family: "Montserrat", sans-serif;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 640px;
+    border-radius: 24px;
+    overflow: hidden;
+    background-color: white;
+}
+.img{
+    height: 420px;
+    width: 310px;
+}
+.card-right{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px;
+}
+.head{
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.main{
+    font-family: "Fraunces", serif;
+    color: hsl(158, 42%, 18%);
+    font-size: 35px;
+}
+.desc{
+    font-size: 18px;
+    color: hsl(228, 12%, 48%);
+}
+.price{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.price h1{
+    color: hsl(158, 36%, 37%);
+    font-size: 28px;
+}
+.price p{
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+.btn{
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    color: white;
+    padding: 15px;
+    border-radius: 12px;
+    width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
